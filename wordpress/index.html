@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/ico" href="resources/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="resources/style.css">
+		<title>The Royal Oak Wrecclesham, Farnham</title>
+		<script src="resources/jquery-1.11.3.min.js"></script>
+	</head>
+
+	<body>
+		<div id="content">
+			<div class="header boxshaddow">
+    		<h1>The Royal Oak, Wrecclesham</h1>
+				<img src="resources/logo.png" alt="Logo" class="logo">
+			</div>
+
+			<div class="navigation">
+				<a id="homeBtn" href="/" class="btn">HOME</a>
+				<a id="aboutusBtn" href="#aboutus" class="btn">ABOUT US</a>
+				<a id="menuBtn"  href="#menu"class="btn">MENU</a>
+				<a id="eventsBtn"  href="#events" class="btn">EVENTS</a>
+				<a id="findusBtn"  href="#findus" class="btn">FIND US</a>
+				<a id="contactusBtn"  href="#contactus" class="btn">CONTACT US</a>
+				<a id="reviewsBtn"  href="#reviews" class="btn">REVIEWS</a>
+				<a id="outaboutBtn"  href="#outabout" class="btn">OUT & ABOUT</a>
+			</div>
+
+			<div id="container" class="container boxshaddow"></div>
+			<div class="footer boxshaddow"></div>
+		</div>
+	</body>
+
+	<script>
+		$(document).ready(function(){
+			var pagehash = location.hash;
+			if (pagehash) {
+				$("#container").load("content.txt "+ pagehash);
+			} else {
+				$("#container").load("content.txt #home");
+			}
+
+				$("#aboutusBtn").click(function(){
+					$("#container").load("content.txt #aboutus");
+				});
+				$("#menuBtn").click(function(){
+					$("#container").load("content.txt #menu");
+				});
+				$("#eventsBtn").click(function(){
+					$("#container").load("content.txt #events");
+				});
+				$("#findusBtn").click(function(){
+					$("#container").load("content.txt #findus");
+				});
+				$("#contactusBtn").click(function(){
+					$("#container").load("content.txt #contactus");
+				});
+				$("#reviewsBtn").click(function(){
+					$("#container").load("content.txt #reviews");
+				});
+				$("#outaboutBtn").click(function(){
+					$("#container").load("content.txt #outabout");
+				});
+		});
+		window.onhashchange = function() {
+	    window.location.reload()
+		}
+	</script>
+
+</html>
