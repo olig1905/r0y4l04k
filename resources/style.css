@@ -22,7 +22,7 @@ h1 {
 
 }
 .header {
- padding: 0;
+ 	padding: 0;
 	-moz-background-image: linear-gradient(to bottom,#1A1A1A,#282828);
 	-webkit-background-image: linear-gradient(to bottom,#1A1A1A,#282828);
 	background-image: linear-gradient(to bottom,#1A1A1A,#282828);
