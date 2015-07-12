@@ -15,7 +15,7 @@
 			</div>
 
 			<div class="navigation">
-				<a id="homeBtn" href="/" class="btn">HOME</a>
+				<a id="homeBtn" href="#home" class="btn">HOME</a>
 				<a id="aboutusBtn" href="#aboutus" class="btn">ABOUT US</a>
 				<a id="menuBtn"  href="#menu"class="btn">MENU</a>
 				<a id="eventsBtn"  href="#events" class="btn">EVENTS</a>
@@ -34,36 +34,38 @@
 		$(document).ready(function(){
 			var pagehash = location.hash;
 			if (pagehash) {
-				$("#container").load("content.txt "+ pagehash);
+				$("#container").load("content.html "+ pagehash);
 			} else {
-				$("#container").load("content.txt #home");
+				$("#container").load("content.html #home");
 			}
-
-				$("#aboutusBtn").click(function(){
-					$("#container").load("content.txt #aboutus");
-				});
-				$("#menuBtn").click(function(){
-					$("#container").load("content.txt #menu");
-				});
-				$("#eventsBtn").click(function(){
-					$("#container").load("content.txt #events");
-				});
-				$("#findusBtn").click(function(){
-					$("#container").load("content.txt #findus");
-				});
-				$("#contactusBtn").click(function(){
-					$("#container").load("content.txt #contactus");
-				});
-				$("#reviewsBtn").click(function(){
-					$("#container").load("content.txt #reviews");
-				});
-				$("#outaboutBtn").click(function(){
-					$("#container").load("content.txt #outabout");
-				});
+			$("#homeBtn").click(function(){
+				$("#container").load("content.html #home");
+			});				
+			$("#aboutusBtn").click(function(){
+				$("#container").load("content.html #aboutus");
+			});
+			$("#menuBtn").click(function(){
+				$("#container").load("content.html #menu");
+			});
+			$("#eventsBtn").click(function(){
+				$("#container").load("content.html #events");
+			});
+			$("#findusBtn").click(function(){
+				$("#container").load("content.html #findus");
+			});
+			$("#contactusBtn").click(function(){
+				$("#container").load("content.html #contactus");
+			});
+			$("#reviewsBtn").click(function(){
+				$("#container").load("content.html #reviews");
+			});
+			$("#outaboutBtn").click(function(){
+				$("#container").load("content.html #outabout");
+			});
 		});
+
 		window.onhashchange = function() {
-	    window.location.reload()
+		    window.location.reload()
 		}
 	</script>
-
 </html>
