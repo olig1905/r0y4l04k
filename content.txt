@@ -1,0 +1,62 @@
+<div id="home">
+  <h2>Welcome</h2>
+  <img src="resources/RoyalOak.jpg" alt="img" class="img boxshaddow" >
+  <p>The Royal Oak is situated in Wrecclesham, a small village on the outskirts of Farnham Town in Surrey. A family pub that offers Royal Oak Roadside Frontagedelicious home made food and a wide range of refreshments. The Royal Oak caters for all tastes and appetites big or small plus numerous vegetarian options. We pride ourselves on producing consistently delicious homemade food at a reasonable price. We provide a very relaxed atmosphere in a beautiful country pub that dates back to 1609.  We cater to all your needs so please feel free to contact us with any requests.</p>
+</div>
+
+<div id="aboutus">
+  <h2>About Us</h2>
+  <p>A friendly and welcoming pub easy to find with ample parking, large garden to enjoy in the summer and roaring log fire to warm up in the winter with some delicious mulled wine! Royal Oak Dining Table Our restaurant caters for all appetites large or small with a wide choice of food and drink. We can also arrange a large banqueting table that seats 14 to 16 people. We have a huge garden for those summer days with a large handmade play area for the kids and table tennis for the more sporting of you!  BBQ’s can be requested for large groups.</p>
+</div>
+
+<div id="menu">
+  <h2>Menu</h2>
+  <object class="center boxshaddow" data='resources/Menu.pdf#'
+        type='application/pdf'
+        width='800px'
+        height='800px'>
+
+  <p>It appears your Web browser is not configured to display PDF files.
+  No worries, just <a href='resources/Menu.pdf'>click here to download the PDF file.</a></p>
+
+</object>
+</div>
+
+<div id="events">
+  <h2>Events</h2>
+  <p>This is some text in a paragraph.</p>
+</div>
+
+<div id="findus">
+  <h2>Find Us</h2>
+  <p>
+The Royal Oak is situated in the village of Wrecclesham approx 1 mile from Farnham Town Centre on the A325 close to Birdworld and Alice Holt Forest Activity Centre.</p>
+  <iframe class="center boxshaddow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.2294943852385!2d-0.8210107999999999!3d51.1964228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48742dea8d89a36d%3A0xa637409313ccfd9a!2sThe+Royal+Oak!5e0!3m2!1sen!2suk!4v1436705620177" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div id="contactus">
+  <h2>Contact Us</h2>
+  <p>This is some text in a paragraph.</p>
+</div>
+
+<div id="reviews">
+  <h2>Reviews</h2>
+  <p>This is some text in a paragraph.</p>
+</div>
+
+<div id="outabout">
+  <h2>Out & About</h2>
+  <p>There are some exciting areas for you to explore around The Royal Oak!</p>
+<ul>
+<li>Birdworld 1 mile up the road from the pub. Next to Birdworld is Forest lodge Garden Centre.</li>
+<li>Alice Holt Forest about 2 miles up the road. There is a selection of walking and mountain biking here as well as Go Ape &#8211; a Treetop Adventure.</li>
+<li>Farnham Town Centre just 1.5 miles away.</li>
+<li>Just up the road in the village of Churt is The Sculpture Park which is a must see and great walk around.</li>
+<li>Frensham Ponds for dog walking and relaxing on the sand is also just down the road.</li>
+</ul>
+</div>
+
+<div id="404">
+  <h1>404 - Page not found</h1>
+  <p>Somthing has gone wrong, please </p> <a href="index.html">click here</a> <p>to return to the website</p>
+</div>
