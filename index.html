@@ -15,7 +15,7 @@
 			</div>
 
 			<div class="navigation">
-				<a id="homeBtn" href="#home" class="btn">HOME</a>
+				<a id="homeBtn" href="/" class="btn">HOME</a>
 				<a id="aboutusBtn" href="#aboutus" class="btn">ABOUT US</a>
 				<a id="menuBtn"  href="#menu"class="btn">MENU</a>
 				<a id="eventsBtn"  href="#events" class="btn">EVENTS</a>
@@ -38,9 +38,7 @@
 			} else {
 				$("#container").load("content.html #home");
 			}
-			$("#homeBtn").click(function(){
-				$("#container").load("content.html #home");
-			});
+
 			$("#aboutusBtn").click(function(){
 				$("#container").load("content.html #aboutus");
 			});
