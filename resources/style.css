@@ -158,9 +158,10 @@ a.btn {
 }
 
 #SocialMedia {
-	float:center;
+		float:center;
     width: 100px;
-    overflow: auto; /* so the size of the wrapper is alway the size of the longest content */
+		margin-left:auto;
+  margin-right:auto;
 }
 #FacebookIcon {
     float: left;
