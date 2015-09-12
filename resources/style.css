@@ -57,7 +57,7 @@ h1 {
 	margin: 0px 60px 60px;
 	height: auto;
 }
-.container h1 {
+.container h1, h3, label {
 	font-family: OpenSansB;
 	color: #333;
 }
@@ -66,10 +66,7 @@ h1 {
 	color: #333;
 	text-align: center;
 }
-.container h3 {
-	font-family: OpenSansB;
-	color: #333;
-}
+
 .container p {
 		text-align: center;
 }
@@ -77,6 +74,7 @@ h1 {
 	color: #555;
 	font-family: sans-serif;
 }
+
 .img {
 	width: 600px;
 	margin: 0 auto;
@@ -124,6 +122,7 @@ a.btn {
 .center {
 	margin: 0 auto;
 	display: block;
+
 }
 .boxshaddow {
 	-moz-box-shadow: 0 0 8px rgba(0,0,0,0.4);
@@ -162,8 +161,8 @@ a.btn {
 }
 
 #SocialMedia {
-		float:center;
     width: 100px;
+		overflow: auto;
 		margin-left:auto;
   margin-right:auto;
 }
@@ -173,6 +172,9 @@ a.btn {
 }
 #TripAdvisorIcon {
     margin: 0 0 0 50px; /* considering the border you need to use a margin so the content does not float under the first div*/
+}
+#TripAdvisorWidget {
+	width: 468px;
 }
 label {
 	float: left;
