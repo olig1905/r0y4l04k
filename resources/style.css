@@ -75,10 +75,11 @@ h1 {
 	font-family: sans-serif;
 }
 
-.img {
-	width: 600px;
-	margin: 0 auto;
-	display: block;
+.homeImg {
+	width: 600px
+}
+.halloweenImg {
+	width: 300px;
 }
 .logo {
 	height: 85px;
@@ -173,9 +174,15 @@ a.btn {
 #TripAdvisorIcon {
     margin: 0 0 0 50px; /* considering the border you need to use a margin so the content does not float under the first div*/
 }
+
 #TripAdvisorWidget {
 	width: 468px;
 }
+
+#events p {
+	text-align: left;
+}
+
 label {
 	float: left;
 	text-align: right;
